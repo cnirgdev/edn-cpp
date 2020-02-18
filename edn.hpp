@@ -107,8 +107,8 @@ namespace edn {
               createToken(TokenAtom, line, token, tokens);
               token = "";
           }
-          continue;
         }
+        continue;
       }
     
       if (*it == '"' && !escaping) {
